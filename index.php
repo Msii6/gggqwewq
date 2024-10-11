@@ -6,7 +6,7 @@ use Google\Cloud\Translate\V2\TranslateClient;
 function translateText($text, $targetLanguage) {
     // 使用Google Translate API
     $translate = new TranslateClient([
-        'key' => 'YOUR_GOOGLE_API_KEY', // 替换为你的API密钥
+        'key' => 'AIzaSyDwfhaoZ7gfjiIXC77d6OJaJxiH3Ey_UN0', // 替换为你的API密钥
     ]);
 
     $translation = $translate->translate($text, [
